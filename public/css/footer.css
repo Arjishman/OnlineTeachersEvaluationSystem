@@ -1,0 +1,12 @@
+/* footer section starts */
+.footer{
+    height: 40px;
+    background-color: #1d2124;
+    text-align: center;
+}
+.footer p{
+    color: white;
+    font-size: medium;
+    padding-top: 7px;
+}
+/* footer section ends */

@@ -1,0 +1,94 @@
+.navbar-center1 li{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.nav-link{
+    display: block;
+    font-size: large;
+
+}
+
+#main-contents{
+    background: #0F6674;
+    margin-bottom: 20px;
+}
+
+#page-heading h2{
+    color: white;
+    margin-top: 3px;
+
+}
+
+#page-heading hr{
+    background: white;
+    height: 2px;
+}
+
+#studentInfo input{
+    width: 80% !important;
+    height: 30px !important;
+    text-align: center;
+    margin-top: 5px;
+    background: white!important;
+}
+
+#studentInfo input:focus{
+    box-shadow: none!important;
+}
+
+#program{
+    width: 160px !important;
+}
+
+#date{
+    width: 160px !important;
+}
+
+
+.table{
+    text-align: center;
+    margin-top: 15px;
+    padding-bottom: 15px;
+
+}
+.table table{
+    text-align: center;
+    color: white;
+    border: 1px solid white;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+}
+.table td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    color: white;
+}
+.table tr:nth-child(even) {
+    background-color: #0c5460;
+}
+
+.modal-content{
+    background: #1b1e21;
+}
+
+.modal-content h5{
+    color: white;
+    margin-bottom: 0px!important;
+    margin-top: 5px;
+}
+
+.modal-content hr{
+    background: white!important;
+}
+
+.modal-content span{
+    color: white;
+}
+
+.modal{
+    margin-top: 150px;
+}
+
+

@@ -1,0 +1,180 @@
+
+.body{
+    background-color: #e2e6ea;
+}
+
+.studentinfo{
+    margin: 20px;
+    background-color: #0f6674;
+    border-radius: 5px;
+
+}
+.form{
+    margin-top: 30px;
+}
+.inputfields{
+    padding-top: 20px;
+    color: white;
+}
+label{
+    color: white;
+    margin-left: 100px;
+}
+#program1{
+    text-align: center;
+    text-transform: uppercase;
+}
+label#date{
+    margin-left: 300px;
+}
+#date1{
+    text-align: center;
+}
+label#studentid{
+    margin-left: 106px;
+}
+#studentid1{
+    text-align: center;
+}
+label#studentname{
+    margin-left: 79px;
+}
+label#studentname input{
+    width: 300px;
+    text-align: center;
+}
+input{
+    border-radius: 10px;
+    border: transparent;
+}
+
+/*Dropdown menu class starts*/
+
+.col-md-6{
+    text-align: center;
+}
+.dropdown{
+    text-align: center;
+}
+.dropdown button{
+    width: 200px;
+    height: 25px;
+    background-color: white !important;
+    color: black;
+    border-radius: 10px;
+}
+.dropdown-menu{
+    width: 200px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: transparent;
+}
+.dropdown-menu a{
+    background: white;
+    border: 1px solid black;
+    margin: 1px;
+    border-radius: 10px;
+}
+.dropdown-menu a:hover{
+    background-color: #cbd3da;
+}
+.dropdown label{
+    margin-left: -48px;
+}
+/*Dropdown menu class ends*/
+
+
+
+/*Table Section starts*/
+.table{
+    text-align: center;
+    margin-top: 15px;
+    padding-bottom: 15px;
+}
+.table table{
+    text-align: center;
+    width: 800px;
+    color: white;
+    border: 1px solid white;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+}
+.table td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+.table tr:nth-child(even) {
+    background-color: #0c5460;
+}
+/*Table Section ends*/
+
+
+
+
+/*Navbar section starts*/
+.navbar{
+    height: 40px;
+}
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+.navbar-nav.navbar-center a{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+/*Navbar section ends*/
+
+/*Po up evaluation status starts*/
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 200px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #1b1e21;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 20%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+.modal-body {
+    padding: 2px 16px;
+    color: white;
+}
+
+
+/*Po up evaluation status ends*/
+

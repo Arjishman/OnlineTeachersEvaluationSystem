@@ -1,0 +1,33 @@
+#QuestionValues{
+    counter-reset: section;
+}
+
+.questions::before{
+    counter-increment: section;
+    content: "Q" counter(section)". ";
+}
+
+#OpenEnded{
+    counter-reset: section;
+}
+
+.opQ::before{
+    counter-increment: section;
+    content: "Q" counter(section)". ";
+}
+
+#answerOpen{
+    counter-reset: section1;
+}
+.answer::before{
+    counter-increment: section1;
+    content: "Answer" counter(section1)": ";
+}
+
+#evaluationReportTable{
+    counter-reset: section2;
+}
+.count::before{
+    counter-increment: section2;
+    content:counter(section2);
+}
